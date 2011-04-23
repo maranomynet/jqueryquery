@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- encoding: utf-8 -->
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title>jQuery.fn.query demo</title>
+  <script src="http://codecentre.eplica.is/jq/jquery-1.5.js"></script>
+  <script src="jquery.query-min.js"></script>
+  <script>
+    jQuery(function($){
+    
+      var num = $('span').query('html p .findme').css('color', 'red').length;
+    
+      $('body').append('<p>Found '+ num +' <code>.findme</code> elements. (Should have found 2.)</p>')
+    
+    });
+  </script>
+
+</head>
+<body>
+
+  <p>
+    <span class="findme">Text text</span>
+    <span>
+      Text
+      <i class="findme">text</i>
+    </span>
+    <b class="findme">Text text</b>
+    <b>
+      Text
+      <i class="findme">text</i>
+    </b>
+  </p>
+
+  <div>
+    <span class="findme">Text text</span>
+    <span>
+      Text
+      <i class="findme">text</i>
+    </span>
+  </div>
+
+
+</body>
+</html>
