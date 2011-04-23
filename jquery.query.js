@@ -3,8 +3,8 @@
 // jQuery.fn.query v 1.0
 // ----------------------------------------------------------------------------------
 // Copyright 2011
-//   Hugsmiðjan ehf. (http://www.hugsmidjan.is) &
-//   Már Örlygsson  (http://mar.anomy.net/)
+//   HugsmiÃ°jan ehf. (http://www.hugsmidjan.is) &
+//   MÃ¡r Ã–rlygsson  (http://mar.anomy.net/)
 //
 // Dual licensed under a MIT licence (http://en.wikipedia.org/wiki/MIT_License)
 // and GPL 2.0 or above (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
