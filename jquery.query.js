@@ -17,7 +17,7 @@
 // by allowing a full/complex selector to be matched against
 // a small slice of the dom.
 //
-// It essentially does: return collection.find('*').andSelf().filter( selector )
+// It essentially does: return collection.find('*').addBack().filter( selector )
 // except in a couple of orders of magnitude more efficient way.
 (function($){
 
